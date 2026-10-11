@@ -84,7 +84,7 @@ p{margin:0 0 .8em}
 
 /* Prices (build output): <span class="ar"><span class="ar-ft">kb. 106 300 Ft</span><span class="ar-eredeti">291 €</span></span>
    Forint is primary, the original currency is secondary and smaller. HUF items have only .ar-ft. */
-.ar{white-space:nowrap}
+.ar{white-space:normal}.ar-ft{white-space:nowrap}
 .ar-ft{font-weight:800}
 .ar-eredeti{font-weight:600;font-size:.8em;color:var(--muted);margin-left:.4em}
 .ar-eredeti::before{content:"("}.ar-eredeti::after{content:")"}
